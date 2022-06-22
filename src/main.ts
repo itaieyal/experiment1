@@ -20,7 +20,7 @@ const canvasCenter = {
   y: window.innerHeight / 2,
 };
 
-canvas.addEventListener("click", (e) => {
+canvas.addEventListener("click", () => {
   currentColorPalletIndex =
     currentColorPalletIndex === colorPalletes.length - 1
       ? 0
